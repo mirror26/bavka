@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repertoires",
+  "info": {
+    "singularName": "repertoire",
+    "pluralName": "repertoires",
+    "displayName": "Repertoire"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
